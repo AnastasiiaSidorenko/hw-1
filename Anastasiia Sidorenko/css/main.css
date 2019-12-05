@@ -1,0 +1,38 @@
+.widget {
+    background: url(../images/paris.png) no-repeat;
+    max-width: 696px;
+    min-height: 435px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top-block {
+    
+}
+
+.top-block__item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom-block {
+    
+}
+
+.bottom-block__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.weather-list {
+    list-style-type: none;
+}
+
+.weather-list__item {
+    display: inline-block;
+    vertical-align: top;
+}
