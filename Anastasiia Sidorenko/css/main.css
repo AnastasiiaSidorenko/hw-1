@@ -1,6 +1,9 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .widget {
     background: url(../images/paris.png) no-repeat;
-    font-family: 'Lato', sans-serif;
     color:#FFFFFF;
     max-width: 696px;
     min-height: 435px;
@@ -30,16 +33,60 @@
     padding-right: 24px;
 }
 
+.current-week-day {
+    font-size: 25px;
+    margin: 0;
+}
+
+.current-date {
+    font-size: 12px;
+    margin: 0;
+}
+
+.weather-degree{
+    font-size: 92px;
+    margin: 0;
+} 
+
+.symbol-degree {
+    font-size: 44px;
+    vertical-align: top;
+}
+
+.weather-area {
+    font-size: 22px;
+    margin: 0;
+}
+
+.wind-information {
+    margin-top: 23px;
+}
+
 .wind-information__item {
     display: inline-block;
+}
+
+.wind-picture {
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+.wind-value {
+    font-size: 25px;
+    margin: 0;
+}
+
+.wind-speed {
+    font-size: 12px;
 }
 
 .bottom-block {
     text-align: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 15px;
     margin: 0 auto;
     width: 100%;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .bottom-block__item {
@@ -56,5 +103,20 @@
 .weather-list__item {
     display: inline-block;
     vertical-align: top;
-    padding: 30px;
+    padding: 0 30px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.weather-list__item:last-child {
+    border-right: unset;
+}
+
+.week-days {
+    margin: 0;
+    font-size: 12px;
+}
+
+.degrees {
+    margin: 0;
+    font-size: 12px;
 }

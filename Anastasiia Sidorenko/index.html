@@ -8,6 +8,7 @@
     <title>Paris</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,22 +16,22 @@
         <div class="clearfix">
             <div class="top-block">
                 <div class="top-block__item">
-                    <p>Friday</p>
-                    <p>August, 23rd</p>
+                    <p class="current-week-day">Friday</p>
+                    <p class="current-date">August, 23rd</p>
                 </div>
 
                 <div class="top-block__item">
                     <div>
-                        <p>12 &ordm;</p>
-                        <p>Paris, France</p>
+                        <p class="weather-degree">12 <span class = "symbol-degree">&ordm;</span></p>
+                        <p class="weather-area">Paris, France</p>
                     </div>
 
                     <div class="wind-information">
                         <div class="wind-information__item">
-                            <img src="images/wind.png" alt="wind">
+                            <img class="wind-picture" src="images/wind.png" alt="wind">
                         </div>
                         <div class="wind-information__item">
-                            <p>14 mph</p>
+                            <p class="wind-value">14 <span class="wind-speed">mph</span></p>
                         </div>
                     </div>
                 </div>
@@ -44,27 +45,27 @@
             <div class="bottom-block__item">
                 <ul class="weather-list">
                     <li class="weather-list__item">
-                        <p>Monday</p>
+                        <p class="week-days">Monday</p>
                         <img src="images/rain.png" alt="rain">
-                        <p>10 &ordm;</p>
+                        <p class="degrees">10 &ordm;</p>
                     </li>
 
                     <li class="weather-list__item">
-                        <p>Tuesday</p>
+                        <p class="week-days">Tuesday</p>
                         <img src="images/cloudy.png" alt="cloudy">
-                        <p>15 &ordm;</p>
+                        <p class="degrees">15 &ordm;</p>
                     </li>
 
                     <li class="weather-list__item">
-                        <p>Wednesday</p>
+                        <p class="week-days">Wednesday</p>
                         <img src="images/sunny.png" alt="sunny">
-                        <p>23 &ordm;</p>
+                        <p class="degrees">23 &ordm;</p>
                     </li>
 
                     <li class="weather-list__item">
-                        <p>Thursday</p>
+                        <p class="week-days">Thursday</p>
                         <img src="images/overcast.png" alt="overcast">
-                        <p>18 &ordm;</p>
+                        <p class="degrees">18 &ordm;</p>
                     </li>
                 </ul>
             </div>
