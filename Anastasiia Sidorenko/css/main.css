@@ -1,10 +1,11 @@
 body {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .widget {
-    background: url(../images/paris.png) no-repeat;
-    color:#FFFFFF;
+    background: url(../images/widget-background.png) no-repeat;
+    color: #FFFFFF;
     max-width: 696px;
     min-height: 435px;
     position: relative;
@@ -12,12 +13,9 @@ body {
 }
 
 .clearfix:after {
-    content: "."; 
-    display: block;  
+    content: "";
+    display: block;
     clear: both;
-    visibility: hidden; 
-    height: 0;
-    
 }
 
 .top-block {
@@ -43,10 +41,10 @@ body {
     margin: 0;
 }
 
-.weather-degree{
+.weather-degree {
     font-size: 92px;
     margin: 0;
-} 
+}
 
 .symbol-degree {
     font-size: 44px;
@@ -67,8 +65,7 @@ body {
 }
 
 .wind-picture {
-    margin-right: 30px;
-    padding-bottom: 10px;
+    margin-right: 10px;
 }
 
 .wind-value {
@@ -85,8 +82,9 @@ body {
     position: absolute;
     bottom: 15px;
     margin: 0 auto;
+    padding: 10px 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .bottom-block__item {
@@ -108,7 +106,7 @@ body {
 }
 
 .weather-list__item:last-child {
-    border-right: unset;
+    border-right: 0;
 }
 
 .week-days {
@@ -119,4 +117,8 @@ body {
 .degrees {
     margin: 0;
     font-size: 12px;
+}
+
+.font-bold {
+    font-weight: 700;
 }
