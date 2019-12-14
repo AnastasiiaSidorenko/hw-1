@@ -1,15 +1,20 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    height: 100vh;
+    background: url(../images/body-background.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .widget {
-    background: url(../images/widget-background.png) no-repeat;
     color: #FFFFFF;
     max-width: 696px;
     min-height: 435px;
     position: relative;
     margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/widget-background.png) no-repeat;
 }
 
 .clearfix:after {
@@ -43,12 +48,14 @@ body {
 
 .weather-degree {
     font-size: 92px;
-    margin: 0;
+    line-height: 92px;
 }
 
-.symbol-degree {
+.weather-degree:after {
+    content: "\00b0";
     font-size: 44px;
     vertical-align: top;
+    line-height: 44px;
 }
 
 .weather-area {
